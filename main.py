@@ -309,3 +309,21 @@ for letter in unencrypted_text:
     unencrypted_text = ""
     for l in unencrypted_text:
         uncrypted_text += l
+    
+    export unencrypted_text
+
+def main():
+    print("Welcome to JNE")
+
+    print("Would you like to encrypt or decrypt? (encrypt/decrypt)")
+    choice = input("=> ")
+
+    if choice == "encrypt":
+        answer = encryption(choice)
+
+    if choice =="decrypt":
+        answer = decryptor(choice)
+
+    print("Your string is: {}".format(answer))
+
+
