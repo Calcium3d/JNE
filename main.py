@@ -149,8 +149,163 @@ def encryption(unencrypted_text):
             letter = letter
     
     encrypted_text = ""
-    for l in unencrypted_text:
+    for l in encrypted_text:
         encrypted_text += l
     
     return encrypted_text
 
+
+def decryptor(encrypted_text):
+    encrypted_text = encrypted_text.lower()
+    encrypted_text[:0] = encrypted_text
+    encrypted_text = list(encrypted_text)
+
+
+for letter in unencrypted_text:
+        if letter == "s":
+            letter = "a"
+        
+        elif letter == "n":
+            letter = "b"
+        
+        elif letter == "m":
+            letter = "c"
+
+        elif letter == "f":
+            letter = "d"
+
+        elif letter == "r":
+            letter = "e"
+        
+        elif letter == "g":
+            letter = "f"
+        
+        elif letter == "h":
+            letter = "g"
+
+        elif letter == "j":
+            letter = "h"
+
+        elif letter == "o":
+            letter = "i"
+
+        elif letter == "k":
+            letter = "j"
+
+        elif letter == "l":
+            letter = "k"
+
+        elif letter == ";":
+            letter = "l"
+
+        elif letter == ",":
+            letter = "m"
+
+        elif letter == "m":
+            letter = "n"
+
+        elif letter == "p":
+            letter = "o"
+
+        elif letter == "[":
+            letter = "p"
+
+        elif letter == "w":
+            letter = "q"
+
+        elif letter == "t":
+            letter = "r"
+
+        elif letter == "d":
+            letter = "s"
+
+        elif letter == "y":
+            letter = "t"
+
+        elif letter == "i":
+            letter = "u"
+
+        elif letter == "b":
+            letter = "v"
+
+        elif letter == "e":
+            letter = "w"
+
+        elif letter == "c":
+            letter = "x"
+
+        elif letter == "u":
+            letter = "y"
+
+        elif letter == "x":
+            letter = "z"
+
+        elif letter == "~":
+            letter = "`"
+
+        elif letter == "!":
+            letter = "1"
+
+        elif letter == "@":
+            letter = "2"
+
+        elif letter == "#":
+            letter = "3"
+
+        elif letter == "$":
+            letter = "4"
+
+        elif letter == "%":
+            letter = "5"
+
+        elif letter == "^":
+            letter = "6"
+
+        elif letter == "&":
+            letter = "7"
+
+        elif letter == "*":
+            letter = "8"
+
+        elif letter == "(":
+            letter = "9"
+
+        elif letter == ")":
+            letter = "0"
+
+        elif letter == "_":
+            letter = "-"
+
+        elif letter == "+":
+            letter = "="
+
+        elif letter == "{":
+            letter = "["
+
+        elif letter == "}":
+            letter = "]"
+
+        elif letter == "|":
+            letter = "\\"
+
+        elif letter == ":":
+            letter = ";"
+
+        elif letter == "\"":
+            letter = "'"
+
+        elif letter == "<":
+            letter = ","
+
+        elif letter == ">":
+            letter = "."
+
+        elif letter == "?":
+            letter = "/"
+
+        else:
+            letter = letter
+    
+    unencrypted_text = ""
+    for l in unencrypted_text:
+        uncrypted_text += l
